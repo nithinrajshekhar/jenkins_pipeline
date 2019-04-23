@@ -5,7 +5,7 @@ provider "azurerm" {
 	tenant_id="e06c8fea-edfd-499a-957a-7c2186cf7c22"
 }
 
-resource "azurerm_resource_group" "mynewrecgrp123" {
+resource "azurerm_resource_group" "mynewrecgrp456" {
 	name="testing"
 	location="West US"
 }
