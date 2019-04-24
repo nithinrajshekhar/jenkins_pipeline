@@ -35,7 +35,7 @@ description: 'approve terraform'
 }
 	
 environment {
-	WORKDIR_CMD = '/var/lib/jenkins/workspace/FirstPipeline/
+	WORKDIR_CMD = '/var/lib/jenkins/workspace/FirstPipeline/'
   DEPLOYMENT = "${params.deploy}"
   APPROVE = "${params.approvals}"
 }
